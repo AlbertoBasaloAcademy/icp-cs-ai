@@ -1,2 +1,22 @@
-# icp-cs-ai
-Desarrollo con IA para ICP usando C#
+# ICP cs AI
+
+Curso de desarrollo con IA para ICP usando C#
+
+## Docs
+
+- Documentación del curso en [carpeta Docs](./docs)
+
+## Demo
+
+C# version of AstroBookings API developed with AI-Drive Development
+
+Based on [AstroBookings brieffing](https://github.com/AlbertoBasaloLabs/astro-bookings)
+
+---
+
+- **Author**: [Alberto Basalo](https://albertobasalo.dev)
+- **Ai Code Academy en Español**: [AI code Academy](https://aicode.academy)
+- **Socials**:
+  - [X](https://x.com/albertobasalo)
+  - [LinkedIn](https://www.linkedin.com/in/albertobasalo/)
+  - [GitHub](https://github.com/albertobasalo)
