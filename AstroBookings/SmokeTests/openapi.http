@@ -1,0 +1,6 @@
+@AstroBookings_HostAddress = http://localhost:5070
+
+GET {{AstroBookings_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###

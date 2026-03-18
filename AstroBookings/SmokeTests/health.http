@@ -1,0 +1,6 @@
+@AstroBookings_HostAddress = http://localhost:5070
+
+GET {{AstroBookings_HostAddress}}/health
+Accept: application/json
+
+###
