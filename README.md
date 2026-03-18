@@ -12,6 +12,18 @@ C# version of AstroBookings API developed with AI-Drive Development
 
 Based on [AstroBookings brieffing](https://github.com/AlbertoBasaloLabs/astro-bookings)
 
+## Rocket Management API
+
+The AstroBookings API now includes rocket management endpoints:
+
+- `GET /rockets/`
+- `GET /rockets/{id}`
+- `POST /rockets/`
+- `PUT /rockets/{id}`
+- `DELETE /rockets/{id}`
+
+End-to-end HTTP scenarios for the rockets feature are available in `tests/e2e/rockets/`.
+
 ---
 
 - **Author**: [Alberto Basalo](https://albertobasalo.dev)

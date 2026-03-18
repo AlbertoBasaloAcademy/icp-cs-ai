@@ -1,0 +1,40 @@
+@AstroBookings_HostAddress = http://localhost:5070
+
+# Rejects invalid range.
+POST {{AstroBookings_HostAddress}}/rockets/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Bad Range",
+  "range": "jupiter",
+  "capacity": 4
+}
+
+###
+
+# Rejects invalid capacity.
+POST {{AstroBookings_HostAddress}}/rockets/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Bad Capacity",
+  "range": "mars",
+  "capacity": 11
+}
+
+###
+
+# Rejects missing required name.
+POST {{AstroBookings_HostAddress}}/rockets/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "   ",
+  "range": "suborbital",
+  "capacity": 2
+}
+
+###
