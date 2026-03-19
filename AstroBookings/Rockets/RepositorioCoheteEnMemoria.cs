@@ -7,26 +7,17 @@ public sealed class RepositorioCoheteEnMemoria : IRepositorioCohete
 
     public IReadOnlyCollection<Cohete> ObtenerTodos() => cohetes.Values.OrderBy(cohete => cohete.Id).ToArray();
 
-    public Cohete Crear(BorradorCohete cohete)
+    public Cohete Crear(BorradorCohete borrador)
     {
-        var coheteCreado = new Cohete(siguienteId++, cohete.Nombre, cohete.Alcance, cohete.Capacidad);
-        cohetes[coheteCreado.Id] = coheteCreado;
-        return coheteCreado;
+        var cohete = new Cohete(siguienteId++, borrador.Nombre, borrador.Alcance, borrador.Capacidad);
+        cohetes[cohete.Id] = cohete;
+        return cohete;
     }
 
-    public bool IntentarObtenerPorId(int id, out Cohete cohete)
-    {
-        if (cohetes.TryGetValue(id, out var coheteExistente))
-        {
-            cohete = coheteExistente;
-            return true;
-        }
+    public bool IntentarObtenerPorId(int id, out Cohete cohete) =>
+        cohetes.TryGetValue(id, out cohete!);
 
-        cohete = default!;
-        return false;
-    }
-
-    public bool IntentarActualizar(int id, BorradorCohete cohete, out Cohete coheteActualizado)
+    public bool IntentarActualizar(int id, BorradorCohete borrador, out Cohete coheteActualizado)
     {
         if (!cohetes.ContainsKey(id))
         {
@@ -34,7 +25,7 @@ public sealed class RepositorioCoheteEnMemoria : IRepositorioCohete
             return false;
         }
 
-        coheteActualizado = new Cohete(id, cohete.Nombre, cohete.Alcance, cohete.Capacidad);
+        coheteActualizado = new Cohete(id, borrador.Nombre, borrador.Alcance, borrador.Capacidad);
         cohetes[id] = coheteActualizado;
         return true;
     }

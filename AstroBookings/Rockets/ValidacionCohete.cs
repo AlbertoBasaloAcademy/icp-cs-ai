@@ -12,8 +12,7 @@ public static class ValidacionCohete
             errores[nameof(solicitud.Nombre)] = ["Name is required."];
         }
 
-        var valorAlcance = solicitud.Alcance?.Trim() ?? string.Empty;
-        if (!MapeoCohete.IntentarAnalizarAlcance(valorAlcance, out var alcance))
+        if (!MapeoCohete.IntentarAnalizarAlcance(solicitud.Alcance ?? string.Empty, out var alcance))
         {
             errores[nameof(solicitud.Alcance)] = ["Range must be one of: suborbital, orbital, moon, mars."];
         }
