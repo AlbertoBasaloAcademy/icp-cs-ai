@@ -2,15 +2,17 @@
 
 Curso de desarrollo con IA para ICP usando C#
 
+[Repositorio del curso](https://github.com/AlbertoBasaloAcademy/icp-cs-ai)
+
 ## Docs
 
 - Documentación del curso en [carpeta Docs](./docs)
 
 ## Demo
 
-C# version of AstroBookings API developed with AI-Drive Development
+Versión C# de la API de AstroBookings desarrollada con AI-Driven Development
 
-Based on [AstroBookings brieffing](https://github.com/AlbertoBasaloLabs/astro-bookings)
+Basada en [resumen ejecutivo de AstroBookings](https://github.com/AlbertoBasaloLabs/astro-bookings/blob/main/README_ES)
 
 ## Rocket Management API
 
