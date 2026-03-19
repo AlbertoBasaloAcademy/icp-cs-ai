@@ -19,22 +19,22 @@
 
 ```powershell
 # Configurar el proyecto
- dotnet restore .\AstroBookings\AstroBookings.csproj
+dotnet restore .\AstroBookings\AstroBookings.csproj
 # Construir/Compilar el proyecto
- dotnet build .\AstroBookings\AstroBookings.csproj
+dotnet build .\AstroBookings\AstroBookings.csproj
 # Ejecutar el proyecto
- dotnet run --project .\AstroBookings\AstroBookings.csproj
+dotnet run --project .\AstroBookings\AstroBookings.csproj
 # Ejecutar tests
- dotnet test
+dotnet test
 # Desplegar el proyecto
- dotnet publish .\AstroBookings\AstroBookings.csproj -c Release
+dotnet publish .\AstroBookings\AstroBookings.csproj -c Release
 ```
 
 ### Estructura de carpetas
 
 ```text
 .                                        # Raíz del proyecto
-├── github/copilot-instructions.md       # Archivo con instrucciones para agentes
+├── .github/copilot-instructions.md      # Archivo con instrucciones para agentes
 ├── README.md                            # Documentación principal
 ├── AstroBookings/                       # API ASP.NET Core
 │   ├── Program.cs                       # Composición de la app y endpoints base
@@ -48,5 +48,5 @@
 ## Entorno
 - Las variables y procedimientos del código y la documentación deben estar en Español.
 - Priorizar concisión sobre gramática en las respuestas.
-- Entorno Windows usando terminal powershell.
+- Entorno Windows usando terminal PowerShell.
 - La rama por defecto es `main`.

@@ -2,6 +2,7 @@
 name: limpiar
 description: Usa este comando para limpiar el código
 model: GPT-5.2
+argument-hint: 'Fichero o carpeta a limpiar'
 ---
 # Clean Code 
 
