@@ -1,19 +1,23 @@
 @AstroBookings_HostAddress = http://localhost:5070
 
 # Creates a valid rocket and verifies it is returned by the list endpoint.
-POST {{AstroBookings_HostAddress}}/rockets/
+POST {{AstroBookings_HostAddress}}/cohetes/
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Falcon",
-  "range": "orbital",
-  "capacity": 4
+  "nombre": "Falcon",
+  "alcance": "orbital",
+  "capacidad": 4
 }
 
 ###
 
-GET {{AstroBookings_HostAddress}}/rockets/
+GET {{AstroBookings_HostAddress}}/cohetes/
 Accept: application/json
 
 ###
+
+````````
+
+# Response

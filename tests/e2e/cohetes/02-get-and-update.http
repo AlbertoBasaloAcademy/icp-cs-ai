@@ -1,24 +1,24 @@
 @AstroBookings_HostAddress = http://localhost:5070
 
 # Assumes a fresh app instance where the first created rocket has id 1.
-GET {{AstroBookings_HostAddress}}/rockets/1
+GET {{AstroBookings_HostAddress}}/cohetes/1
 Accept: application/json
 
 ###
 
-PUT {{AstroBookings_HostAddress}}/rockets/1
+PUT {{AstroBookings_HostAddress}}/cohetes/1
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Falcon Heavy",
-  "range": "moon",
-  "capacity": 6
+  "nombre": "Falcon Heavy",
+  "alcance": "moon",
+  "capacidad": 6
 }
 
 ###
 
-GET {{AstroBookings_HostAddress}}/rockets/1
+GET {{AstroBookings_HostAddress}}/cohetes/1
 Accept: application/json
 
 ###

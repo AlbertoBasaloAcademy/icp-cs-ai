@@ -1,35 +1,35 @@
 @AstroBookings_HostAddress = http://localhost:5070
 
 # Deletes the existing rocket.
-DELETE {{AstroBookings_HostAddress}}/rockets/1
+DELETE {{AstroBookings_HostAddress}}/cohetes/1
 Accept: application/json
 
 ###
 
 # Verifies not found responses for missing rockets.
-GET {{AstroBookings_HostAddress}}/rockets/1
+GET {{AstroBookings_HostAddress}}/cohetes/1
 Accept: application/json
 
 ###
 
-GET {{AstroBookings_HostAddress}}/rockets/999
+GET {{AstroBookings_HostAddress}}/cohetes/999
 Accept: application/json
 
 ###
 
-PUT {{AstroBookings_HostAddress}}/rockets/999
+PUT {{AstroBookings_HostAddress}}/cohetes/999
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Ghost",
-  "range": "orbital",
-  "capacity": 3
+  "nombre": "Ghost",
+  "alcance": "orbital",
+  "capacidad": 3
 }
 
 ###
 
-DELETE {{AstroBookings_HostAddress}}/rockets/999
+DELETE {{AstroBookings_HostAddress}}/cohetes/999
 Accept: application/json
 
 ###
