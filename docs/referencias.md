@@ -19,3 +19,8 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
 - https://github.com/github/awesome-copilot/
 - https://skills.sh/
+
+## Agent instructions
+
+- https://medium.com/@addyosmani/stop-using-init-for-agents-md-3086a333f380
+- https://levelup.gitconnected.com/ai-coding-tip-011-initialize-agents-md-8f02c3efb945
