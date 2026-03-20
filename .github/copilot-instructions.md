@@ -50,3 +50,4 @@ dotnet publish .\AstroBookings\AstroBookings.csproj -c Release
 - Priorizar concisión sobre gramática en las respuestas.
 - Entorno Windows usando terminal PowerShell.
 - La rama por defecto es `main`.
+- El repositorio remoto es `https://github.com/AlbertoBasaloAcademy/icp-cs-ai`
