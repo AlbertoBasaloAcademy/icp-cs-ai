@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1] - 2026-03-20
+
+### Added
+- Registro en consola de solicitudes HTTP (método, ruta, timestamp) y respuestas (código de estado y duración) mediante middleware nativo de ASP.NET Core.
+- Registro de excepciones no controladas con `LogError` y respuesta JSON genérica 500 sin exponer detalles sensibles.
+
+### Changed
+- Habilitado proveedor de logging de consola nativo y ajustes en `Program.cs` para centralizar comportamiento de logging.
+
 ## [0.1.0] - 2026-03-18
 
 ### Added
