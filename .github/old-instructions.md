@@ -25,7 +25,7 @@ dotnet build .\AstroBookings\AstroBookings.csproj
 # Ejecutar el proyecto
 dotnet run --project .\AstroBookings\AstroBookings.csproj
 # Ejecutar tests
-dotnet test
+dotnet test .\AstroBookings\AstroBookings.csproj
 # Desplegar el proyecto
 dotnet publish .\AstroBookings\AstroBookings.csproj -c Release
 ```
@@ -38,7 +38,7 @@ dotnet publish .\AstroBookings\AstroBookings.csproj -c Release
 ├── README.md                            # Documentación principal
 ├── AstroBookings/                       # API ASP.NET Core
 │   ├── Program.cs                       # Composición de la app y endpoints base
-│   ├── Rockets/                         # Feature de cohetes en español e inglés
+│   ├── Cohetes/                         # Funcionalidad de cohetes
 │   └── SmokeTests/                      # Pruebas rápidas HTTP
 ├── tests/e2e/                           # Escenarios HTTP end-to-end
 ├── docs/                                # Guías y material del curso
