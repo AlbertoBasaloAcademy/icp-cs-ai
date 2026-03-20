@@ -26,6 +26,19 @@ The AstroBookings API now includes rocket management endpoints:
 
 End-to-end HTTP scenarios for the rockets feature are available in `tests/e2e/rockets/`.
 
+## Launches API
+
+Se ha añadido la gestión de lanzamientos:
+
+- `GET /lanzamientos/`
+- `GET /lanzamientos/{id}`
+- `POST /lanzamientos/` (crea lanzamiento en estado `programado`)
+- `PUT /lanzamientos/{id}`
+- `DELETE /lanzamientos/{id}`
+- `PATCH /lanzamientos/{id}/estado` (cambiar estado: programado, confirmado, exitoso, suspendido, cancelado)
+
+La especificación funcional y el plan están en `specs/lanzamientos-estados-rentabilidad.spec.md`.
+
 ---
 
 - **Author**: [Alberto Basalo](https://albertobasalo.dev)
