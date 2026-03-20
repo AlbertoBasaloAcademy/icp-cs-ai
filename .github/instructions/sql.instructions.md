@@ -6,7 +6,7 @@ applyTo: '**/*.sql'
 # SQL Development
 
 ## Database schema generation
-- all table names should be in singular form
+- all table names should be in plural form
 - all column names should be in singular form
 - all tables should have a primary key column named `id`
 - all tables should have a column named `created_at` to store the creation timestamp
