@@ -1,4 +1,5 @@
 using AstroBookings.Rockets;
+using AstroBookings.Lanzamientos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ builder.Logging.AddConsole();
 
 builder.Services.AddOpenApi();
 builder.Services.AddSingleton<IRepositorioCohete, RepositorioCoheteEnMemoria>();
+builder.Services.AddSingleton<IRepositorioLanzamiento, RepositorioLanzamientoEnMemoria>();
 
 var app = builder.Build();
 
@@ -102,5 +104,6 @@ app.MapGet("/health", () => Results.Ok(new
 }));
 
 app.MapearEndpointsCohete();
+app.MapearEndpointsLanzamiento();
 
 app.Run();
