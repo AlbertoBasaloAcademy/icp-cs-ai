@@ -1,4 +1,4 @@
-# Creeate Spec
+# Create Spec
 
 ## Role
 
