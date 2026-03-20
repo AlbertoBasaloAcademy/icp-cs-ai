@@ -24,3 +24,4 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
 - https://medium.com/@addyosmani/stop-using-init-for-agents-md-3086a333f380
 - https://levelup.gitconnected.com/ai-coding-tip-011-initialize-agents-md-8f02c3efb945
+- https://aicode.academy/blog/es/agents-rules/
