@@ -1,5 +1,10 @@
 # Instrucciones para Agentes
 
+- **{Root_Folder}**: `/`
+- **{Agents_Folder}**: `/.github/`
+- **{Agents_file}**: `/.github/copilot-instructions.md`
+- **{Project_Folder}**: `/project/`
+
 ## Resumen del Producto
 - AstroBookings es una API Web en .NET para gestión de cohetes.
 - Expone endpoints de salud y CRUD bajo `/health` y `/cohetes`.
