@@ -1,29 +1,29 @@
-# Short name Specification
+# Especificación de nombre_corto
 - **Type**: {feat/bug/chore}
 - **Status**: Draft{Draft, Planned, Coded, Verified }
 
 ## Problem Description
 
-{Short paragraph clearly outlining the problem that we aim to solve.}
+{Párrafo corto delineando claramente el problema que buscamos resolver.}
 
 ### User Stories
 
-- As {...}, I want to **{...}** so that {...}
+- Como {...}, quiero **{...}** para que {...}
 
 ## Solution Overview
 
 ### User/App interface
 
-{API, pages, CLI commands, etc.}
+{API, páginas, comandos CLI, etc.}
 
 ### Model and logic
 
-{Data models, business logic, rules, etc.}
+{Modelos de datos, lógica de negocio, reglas, etc.}
 
 ### Persistence
 
-{Database, file storage, remote service, etc.}
+{Base de datos, almacenamiento de archivos, servicio remoto, etc.}
 
 ## Acceptance Criteria
 
-- [ ] EARS format
+- [ ] Formato EARS

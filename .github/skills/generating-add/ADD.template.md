@@ -1,36 +1,36 @@
-# {Product name} Architectural Design Document
+# Documento de Diseño Arquitectónico para {Nombre del producto}
 
-{One sentence summary of the product.}
+{Resumen en una frase del producto.}
 
 ### Table of Contents
-{Generate a Table of Contents based on the sections below.}
+{Genera una Tabla de Contenidos basada en las secciones de abajo.}
 
 ## Stack and tooling
 
 ### Technology Stack
-  {include languages, frameworks, libraries, databases, and any other relevant technologies}
+  {incluye lenguajes, frameworks, librerías, bases de datos, y cualquier otra tecnología relevante}
 
 ### Development Tools
-  {list of development tools, IDEs, CI/CD pipelines, and other relevant tools}
-  {include workflow for development, testing, and deployment}
+  {lista de herramientas de desarrollo, IDEs, pipelines CI/CD, y otras herramientas relevantes}
+  {incluye flujo de trabajo para desarrollo, pruebas, y despliegue}
 
 ## Systems Architecture
 
-{describe the overall system architecture} 
+{describe la arquitectura general del sistema} 
 
-{add an overall architecture diagram following C4 model or similar in mermaid syntax}
+{agrega un diagrama de la arquitectura general siguiendo el modelo C4 o similar en sintaxis mermaid}
 
 ## Software Architecture
 
-{detail the software architecture chosen}
+{detalla la arquitectura de software elegida}
 
-{list or reference design patterns, modules, and data flow}
+{lista o haz referencia a patrones de diseño, módulos, y flujo de datos}
 
 ## Architecture Decisions Record (ADR)
 
-### ADR 1: {Title of decision}
-- **Decision**: {Describe the architectural decision made}
+### ADR 1: {Título de la decisión}
+- **Decision**: {Describe la decisión arquitectónica tomada}
 - **Status**: {Accepted | Rejected | Deprecated}
-- **Context**: {Explain the context and reasoning behind the decision}
-- **Consequences**: {Describe the implications and outcomes of the decision}
+- **Context**: {Explica el contexto y razonamiento detrás de la decisión}
+- **Consequences**: {Describe las implicaciones y resultados de la decisión}
   

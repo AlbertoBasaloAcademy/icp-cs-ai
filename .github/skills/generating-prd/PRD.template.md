@@ -1,25 +1,25 @@
-# {Product name} Product Requirements Document
+# Documento de Requisitos del Producto para {Nombre del producto}
 
-{One sentence summary of the product.}
+{Resumen en una frase del producto.}
 
 ## Vision and Scope
 
-{One short paragraph describing the purpose and goals of the product.}
+{Un párrafo corto describiendo el propósito y objetivos del producto.}
 
-{Who are the target users?}
+{¿Quiénes son los usuarios objetivo?}
 
-{Scope of the product.}
+{Alcance del producto.}
 
-{Out of scope items, if any destacable.}
+{Elementos fuera del alcance, si hay alguno destacable.}
 
 ## Functional Requirements
 
-### {FR1} Functional requirement 1 short description
-- {One short paragraph description of the functional requirement.}
+### {FR1} Descripción corta del requisito funcional 1
+- {Un párrafo corto describiendo el requisito funcional.}
 - **Status**: NotStarted/InProgress/Implemented
 
 ## Technical Requirements
 
-### {TR1} Technical requirement 1 short description
-- {One short paragraph description of the technical requirement}
+### {TR1} Descripción corta del requisito técnico 1
+- {Un párrafo corto describiendo el requisito técnico}
 - **Status**: NotStarted/InProgress/Implemented

@@ -1,77 +1,77 @@
 # Agents Instructions
 
-- **{Root_Folder}**: {Root folder for the project and agents.}
-- **{Agents_Folder}**: {Folder for agent-related files.}
-- **{Agents_file}**: {Main instructions file for agents.}
-- **{Project_Folder}**: {Folder for project-related files.}
+- **{Root_Folder}**: {Carpeta raíz para el proyecto y agentes.}
+- **{Agents_Folder}**: {Carpeta para archivos relacionados a los agentes.}
+- **{Agents_file}**: {Archivo de instrucciones principales para agentes.}
+- **{Project_Folder}**: {Carpeta para archivos relacionados al proyecto.}
 
 ## Product Overview
 
-{Product name} is a {short description of product}.
+{Nombre del producto} es un {breve descripción del producto}.
 
-- {Additional key features or characteristics of the product.}
+- {Características adicionales o clave del producto.}
   
 ## Technical Implementation
 
 ### Tech Stack
 
-- **Language**: {language and version}
-- **Framework**: {framework and version}
-- **Database**: {database}
-- **Security**: {security strategy}
-- **Testing**: {testing framework }
-- **Logging**: {logging tool }
+- **Language**: {lenguaje y versión}
+- **Framework**: {framework y versión}
+- **Database**: {base de datos}
+- **Security**: {estrategia de seguridad}
+- **Testing**: {framework de pruebas}
+- **Logging**: {herramienta de registro}
 
 ### Development workflow
 
 ```bash
-# Set up the project
+# Configurar el proyecto
 {}
-# Build/Compile the project
+# Construir/compilar el proyecto
 {}
-# Run the project
+# Ejecutar el proyecto
 {}
-# Test the project
+# Probar el proyecto
 {}
-# Deploy the project
+# Desplegar el proyecto
 ```
 
 ### Folder structure
 ```text
 .                         # Project root  
-├── {Agents_file}         # This file with instructions for AI agents
-├── {Agents_Folder}/      # Agents related files (skills, specs, etc)
-│   ├── agents/           # Specific agent definitions
-|   ├── prompts/          # Reusable prompts directory
-|   └── skills/           # Custom agent skills
-├── {Project_Folder}/     # Project related files (specs, plans, etc)
-|   └── specs/            # Specifications and plans
-├── CHANGELOG.md          # Project history and updates
-├── README.md             # Human friendly project overview
-├── src/                  # Source code folder
-├── tests/                # Test files
-└── other_files/          # Other relevant files and folders 
+├── {Agents_file}         # Este archivo con instrucciones para agentes de IA
+├── {Agents_Folder}/      # Archivos relacionados a agentes (skills, specs, etc)
+│   ├── agents/           # Definiciones específicas de agentes
+|   ├── prompts/          # Directorio de prompts reutilizables
+|   └── skills/           # Habilidades personalizadas de agentes
+├── {Project_Folder}/     # Archivos relacionados al proyecto (specs, planes, etc)
+|   └── specs/            # Especificaciones y planes
+├── CHANGELOG.md          # Historial del proyecto y actualizaciones
+├── README.md             # Resumen del proyecto amigable para humanos
+├── src/                  # Carpeta de código fuente
+├── tests/                # Archivos de pruebas
+└── other_files/          # Otros archivos y carpetas relevantes 
 ```
 
 ## Environment
 - **OS dev**: `Windows` | `Linux` | `MacOS`
 - **Terminal**: ` cmd` | `PowerShell` | `bash` | `zsh`
-- **Git remote**: {git remote URL}
+- **Git remote**: {URL remota de git}
 - **Default branch**: `main` | `master` 
 
 ## Behavior Guidelines
 
-- Code and documentation must be in English.
-- Chat responses must be in the language of the user prompt.
-- Sacrifice grammar for conciseness when needed to fit response limits.
-- When using templates, ensure to replace {placeholders} with actual values.
+- El código y la documentación deben estar en inglés.
+- Las respuestas del chat deben estar en el idioma del prompt de usuario.
+- Sacrifica la gramática por concisión cuando sea necesario para ajustarte a los límites de respuesta.
+- Cuando uses plantillas, asegúrate de reemplazar los {placeholders} con valores reales.
 
 ### Naming Conventions
 
-Use slugs with hyphens for any identifiers or non code file names.
+Usa slugs con guiones para cualquier identificador o nombres de archivo que no sean de código.
 
-Prefix specifications, branches, and commit messages with the following tags:
+Prefija las especificaciones, ramas y mensajes de commit con las siguientes etiquetas:
 
-- `feat` : For new features or significant changes.
-- `fix` : For bug fixes or minor improvements.
-- `chore` : For routine tasks, maintenance, or non-functional changes.
+- `feat` : Para nuevas funcionalidades o cambios significativos.
+- `fix` : Para correcciones de errores o mejoras menores.
+- `chore` : Para tareas de rutina, mantenimiento o cambios no funcionales.

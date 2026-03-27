@@ -1,9 +1,9 @@
 ---
 name: 3-product-owner
-description: Internal worker that writes one feature, bug fix, or enhancement specification for the orchestrator.
-argument-hint: Provide a PRD and one specific feature, bug fix, or enhancement request to specify.
+description: Trabajador interno que escribe la especificación de una característica, corrección de errores o mejora para el orquestador.
+argument-hint: Proporciona un PRD y una solicitud específica de característica, corrección de errores o mejora para especificar.
 model: Auto (copilot)
-tools: ['read', 'edit', 'search', 'web', 'todo']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 user-invocable: false
 disable-model-invocation: true
 ---
@@ -11,26 +11,24 @@ disable-model-invocation: true
 
 ## Role
 
-Act as a software analyst and product owner. 
+Actúa como analista de software y product owner.
 
 ## Task
 
-- Write a detailed specification for a feature, bug fix, or enhancement.
-- Focus on a single requested backlog item and return the spec path plus a short summary of scope and acceptance criteria.
+- Escribe una especificación detallada para una característica, corrección de errores o mejora.
+- Céntrate en un solo elemento solicitado del backlog y devuelve la ruta de la especificación junto con un breve resumen del alcance y los criterios de aceptación.
 
-### Project Progress management 
+### Project Progress management
 
-When finished set status changes if applicable:
+Cuando termines, establece los cambios de estado si corresponde:
 
-- The spec is in status "Draft". 
-- Features are in status "InProgress". 
+- La especificación está en estado "Draft".
+- Las características están en estado "InProgress".
 
-## Context 
+## Context
 
-The provided Product Requirements Document (PRD) and a feature, bug fix, or enhancement request.
+El Documento de Requisitos del Producto (PRD) proporcionado y una solicitud de característica, corrección de errores o mejora.
 
 ### Skills to use
 
-- `generating-specs` : Generates detailed specifications for features, bug fixes, or enhancements.
-
-
+- `generating-specs` : Genera especificaciones detalladas para características, correcciones de errores o mejoras.

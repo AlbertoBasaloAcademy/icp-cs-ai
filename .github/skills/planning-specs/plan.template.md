@@ -1,5 +1,5 @@
-## Implementation Plan for <short-name.spec>
+## Plan de implementación para <short-name.spec>
 
-### Step 1: {Step Title}
-{short description of the step}
-- [ ] {One line Task 1 description}
+### Step 1: {Título del Paso}
+{breve descripción del paso}
+- [ ] {Descripción de Tarea 1 en una línea}

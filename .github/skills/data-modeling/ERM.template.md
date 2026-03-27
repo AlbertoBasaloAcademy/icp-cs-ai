@@ -1,13 +1,12 @@
-## {Product name } Entity-Relationship Model
+## Modelo Entidad-Relación para {Nombre del producto}
 
 ## Entities
 
-### {Entity Name}
-- **Attribute 1**: {Data type}
+### {Nombre de la Entidad}
+- **Atributo 1**: {Tipo de dato}
 
-- {Model rule 1}  
+- {Regla de modelo 1}  
 
 ## Relationships
 
-{Mermaid ER diagram here}
-
+{Diagrama ER mermaid aquí}

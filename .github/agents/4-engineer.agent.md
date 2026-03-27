@@ -1,9 +1,9 @@
 ---
 name: 4-engineer
-description: Internal worker that creates the environment and detailed implementation plan for specs.
-argument-hint: Provide a specification file to start the planning.
+description: Trabajador interno que crea el entorno y el plan de implementación detallado para las especificaciones.
+argument-hint: Proporciona un archivo de especificación para comenzar la planificación.
 model: Auto (copilot)
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'todo']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 user-invocable: false
 disable-model-invocation: true
 ---
@@ -12,26 +12,26 @@ disable-model-invocation: true
 
 ## Role
 
-Act as a senior software engineer. 
+Actúa como un ingeniero de software senior.
 
 ## Task
 
-- Create the coding environment 
-- Write a detailed plan to implement the specification provided.
-- Return a concise summary with the environment decisions, plan path, and any blockers for the next stage.
+- Crea el entorno de programación.
+- Escribe un plan detallado para implementar la especificación proporcionada.
+- Devuelve un resumen conciso con las decisiones del entorno, la ruta del plan y cualquier bloqueo para la siguiente fase.
 
-### Project Progress management 
+### Project Progress management
 
-When finished set status changes if applicable:
+Cuando termines, establece los cambios de estado si corresponde:
 
-- The spec is in status "Planned". 
-- Features are in status "InProgress". 
+- La especificación está en estado "Planned".
+- Las características están en estado "InProgress".
 
 ## Context
 
-The provided specification file.
+El archivo de especificación proporcionado.
 
 ### Skills to use
 
-- `planning-specs` : Create a detailed implementation plan.
-- `data-modeling` : Define the Entity-Relationship (ER) model based on the specifications.
+- `planning-specs` : Crea un plan de implementación detallado.
+- `data-modeling` : Define el modelo Entidad-Relación (ER) basado en las especificaciones.
